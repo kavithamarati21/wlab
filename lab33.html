@@ -5,28 +5,64 @@
 
   <!-- External style sheet -->
   
-
+<link rel="stylesheet" type="text/css" href="3style.css">
   <!-- Internal style sheet -->
   <style>
-    label
-    {
-      display: block;
-      margin-top: 10px;
-      font-weight: bold;
-    }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f6fa;
+            margin: 40px;
+        }
 
-    input
-    {
-      width: 95%;
-      padding: 6px;
-    }
+        h2 {
+            color: #004085;
+            text-align: center;
+        }
 
-    button
-    {
-      margin-top: 15px;
-      padding: 8px 16px;
-    }
-  </style>
+        form {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 95%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+
+        .error {
+            color: red;
+            font-size: 0.9em;
+        }
+    </style>
 </head>
 <body>
   <div id="registrationBox">
