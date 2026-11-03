@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="4style.css"?>
+<STUDENTDATA>
+<STUDENT>
+        <USN>1TD24CS060</USN>
+        <NAME>DARSHINI</NAME>
+        <COLLEGE>BMSIT</COLLEGE>
+        <PROGRAM>CSE</PROGRAM>
+        <YEAR>2028</YEAR>
+        <EMAIL>darshini060@gmail.com</EMAIL>
+</STUDENT> 
+<STUDENT>
+        <USN>1BY24CS234</USN>
+        <NAME>CHANDANA</NAME>
+        <COLLEGE>BMSIT</COLLEGE>
+        <PROGRAM>CSE</PROGRAM>
+        <YEAR>2028</YEAR>
+        <EMAIL>chandana@gmail.com</EMAIL>
+</STUDENT> 
+<STUDENT>
+        <USN>1CMR24CS232</USN>
+        <NAME>SINCHANA</NAME>
+        <COLLEGE>CMRU</COLLEGE>
+        <PROGRAM>CSE</PROGRAM>
+        <YEAR>2028</YEAR>
+        <EMAIL>sinchana@gmail.com</EMAIL>
+</STUDENT> 
+</STUDENTDATA>
